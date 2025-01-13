@@ -44,7 +44,7 @@ const Header = () => {
         </Text>
 
         {/* Links Row */}
-        <Flex mt={4}>
+        <Flex mt={4} display={{ base: "none", md: "block" }}>
           <Link
             href="https://www.linkedin.com/in/rami-alhussein/"
             target="_blank"

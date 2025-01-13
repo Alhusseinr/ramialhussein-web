@@ -44,7 +44,7 @@ const Experience = () => {
       <Box ml={{ base: 4, xl: 0 }} mr={{ base: 4, xl: 0 }}>
         <Heading mb={4}>Education</Heading>
         {educationData.map((item, index) => (
-          <Flex key={index} mb={8}>
+          <Flex key={index} mb={6}>
             <Box bg="gray.800" p="4" borderRadius="md" width="100%">
               <Flex
                 justify="space-between"
