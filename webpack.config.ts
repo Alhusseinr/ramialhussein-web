@@ -13,7 +13,7 @@ const config: Configuration = {
     mode: 'development',
     entry: './src/index.tsx',
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'build'),
         filename: 'boundle.js',
         clean: true
     },
@@ -51,7 +51,7 @@ const config: Configuration = {
         port: 3000,
         open: true,
         static: {
-          directory: path.join(__dirname, 'dist'),
+          directory: path.join(__dirname, 'build'),
         },
       },
 } as Configuration & { devServer: DevServerConfiguration };
