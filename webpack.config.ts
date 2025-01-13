@@ -10,7 +10,7 @@ interface Configuration extends WebpackConfiguration {
   }
 
 const config: Configuration = {
-    mode: 'development',
+    mode: 'production',
     entry: './src/index.tsx',
     output: {
         path: path.resolve(__dirname, 'build'),
