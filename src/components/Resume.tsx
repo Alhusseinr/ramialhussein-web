@@ -5,7 +5,7 @@ import { FaFileAlt } from 'react-icons/fa';
 const Resume = () => {
 
   const handleOpenPDF = () => {
-    const pdfUrl = '/files/Resume.pdf'; // Replace with the actual path to your PDF
+    const pdfUrl = './files/Resume.pdf'; // Replace with the actual path to your PDF
     window.open(pdfUrl, '_blank');
   };
 

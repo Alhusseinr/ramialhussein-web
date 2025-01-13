@@ -23,7 +23,7 @@ const Header = () => {
           <Link href="https://github.com/Alhusseinr" target="_blank" rel="noopener noreferrer" mx={2}>
             <Icon boxSize={6} ><FaGithub/></Icon>
           </Link>
-          <Link as="a" href="/files/Resume.pdf" target="_blank" rel="noopener noreferrer" mx={2}>
+          <Link as="a" href="./files/Resume.pdf" target="_blank" rel="noopener noreferrer" mx={2}>
             <Icon boxSize={6}><FaFileAlt/></Icon>
           </Link>
         </Flex>
