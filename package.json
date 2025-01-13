@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "webpack serve --config webpack.config.ts",
     "build": "webpack --config webpack.config.ts",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "clean-cache": "rm -rf node_modules package-lock.json"
   },
   "keywords": [],
@@ -26,11 +28,13 @@
     "@types/react-dom": "^19.0.2",
     "@types/webpack-dev-server": "^4.7.1",
     "copy-webpack-plugin": "^12.0.2",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.3",
     "ts-loader": "^9.5.2",
     "typescript": "^5.7.3",
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.0"
-  }
+  },
+  "homepage": "https://alhusseinr.github.io/ramialhussein-web"
 }
