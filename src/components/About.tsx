@@ -14,7 +14,7 @@ const About = () => {
             ml={{ base: 4, xl: 0 }}
             mr={{ base: 4, xl: 0 }}
         >
-            <Heading mb={4}>About Me</Heading>
+            <Heading mb={4}>Who am I</Heading>
             <Text>
                 I am an experienced Software Engineer based in the New York Metropolitan area with a proven track record of leading end-to-end project delivery. I excel at optimizing software performance, improving system efficiency, and collaborating with cross-functional teams to develop innovative and effective solutions. I particularly enjoy backend development, creating scalable, high-performance systems that drive impactful results.
             </Text>
